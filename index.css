@@ -1,0 +1,74 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.knapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.knapper button {
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    cursor: pointer;
+    transition: transform 0.15s;
+}
+
+.knapper button:hover {
+    transform: scale(1.1);
+}
+
+#sten{
+    background-color: red;
+}
+
+#saks{
+    background-color: blue;
+}
+
+#papir{
+    background-color: greenyellow;
+}
+
+#scores {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#resetKnap{
+    display: block;
+    margin: 0 auto;
+}
+
+body{
+    background-color: lightblue;
+}
+
+#runderSpillet{
+    gap: 10px;
+}
+
+#resetKnap {
+    margin-top: 20px;
+    padding: 10px 25px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#resetKnap:hover {
+    transform: scale(1.05);
+}

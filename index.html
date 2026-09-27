@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="dk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sten saks papir spil!</title>
+
+         <!-- defer gør, at JavaScript venter med at køre -->
+    <script src="index.js" defer></script> 
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+    <h1>Sten saks papir!</h1>
+    <p>Vælg dit valg!</p>
+
+    <div class="knapper">
+        <button id="sten">&#x1F44A;</button>
+        <button id="saks">&#x270c;</button>
+        <button id="papir">&#x1f590;</button>
+    </div>
+    <p id="result"></p>
+    <p id="scores">
+        Your score: <span id="user-score">0</span>
+        Computer score: <span id="computer-score">0</span>
+    </p>
+
+    <p id="runderSpillet">Runder spillet:  <span id="rundeNr"> 0</span></p>
+    <p id="vinder"></p>
+
+    <button id="resetKnap">Reset spillet</button>
+
+
+</body>
+
+</html>
